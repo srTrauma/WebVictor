@@ -9,379 +9,432 @@
     <title>Equipos de la Liga</title>
   </head>
   <body class="bg-slate-300">
-    <section>
-      <div
-        class="w-full shadow-lg bg-slate-100 shadow-slate-400 flex flex-row list-none justify-evenly py-9 px-4 gap-4 items-center content-center select-none"
-      >
-        <div class="">
+    <main class="flex flex-col justify-between">
+      <section>
+        <div
+          class="w-full shadow-lg bg-slate-100 shadow-slate-400 flex flex-row list-none justify-evenly py-9 px-4 gap-4 items-center content-center select-none"
+        >
+          <div class="">
+            <img
+              src="/res/liga logo fondo blanco.png"
+              class="w-52 h-auto rounded-md"
+            />
+          </div>
+          <div class="flex flex-row gap-20 text-xl">
+            <div
+              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
+            >
+              Definitivamente algo 1
+            </div>
+
+            <div
+              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
+            >
+              Definitivamente algo 2
+            </div>
+            <div
+              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
+            >
+              Definitivamente algo 3
+            </div>
+            <div
+              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
+            >
+              Definitivamente algo 4
+            </div>
+          </div>
+          <div
+            class="rounded-full bg-gray-600 py-2 px-4 text-gray-600 select-none"
+          >
+            a
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mt-8">
+          <div class="absolute mt-52 ml-20 text-white z-40">
+            <div
+              class="text-6xl z-10 flex flex-col font-semibold mb-10 w-2/5 whitespace-normal"
+            >
+              Bienvenidos a la guia definitiva de los equipos de la liga
+            </div>
+            <div
+              class="text-4xl z-10 flex flex-col font-thin mb-10 w-3/5 whitespace-normal"
+            >
+              Aqui encontrará todos los datos que necestita para mantenerse
+              informado sobre sus equipos favoritos
+            </div>
+            <a href="#cubos">
+              <div
+                class="rounded-lg p-5 bg-purple-600 cursor-pointer w-fit hover:scale-105 transition-all"
+              >
+                Mire Sus Equipos
+              </div>
+            </a>
+          </div>
           <img
-            src="/res/liga logo fondo blanco.png"
-            class="w-52 h-auto rounded-md"
+            class="w-full h-[50rem] blur-lg"
+            src="/res/descarga.jpeg"
+            alt="Imagen genérica"
           />
         </div>
-        <div class="flex flex-row gap-20 text-xl">
-          <div
-            class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-          >
-            Definitivamente algo 1
-          </div>
+      </section>
 
-          <div
-            class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-          >
-            Definitivamente algo 2
-          </div>
-          <div
-            class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-          >
-            Definitivamente algo 3
-          </div>
-          <div
-            class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-          >
-            Definitivamente algo 4
-          </div>
+      <section
+        class="container mx-auto flex flex-col items-center justify-center my-16 select-none"
+        id="cubos"
+      >
+        <div class="flex flex-row items-center my-16 gap-8">
+          <p class="animate-bounce">⚽</p>
+          <h2 class="text-2xl font-bold textEspecial">Tabla de Posiciones</h2>
+          <p class="animate-bounce animationDelay">⚽</p>
         </div>
-        <div
-          class="rounded-full bg-gray-600 py-2 px-4 text-gray-600 select-none"
-        >
-          a
-        </div>
-      </div>
-    </section>
-
-    <section class="my-40">
-
-      <div class="flex flex-row mb-10 items-center justify-center gap-11 ">
-        <div class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border ">
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-              <p class="text-lg">Fútbol Club Barcelona</p>
-              <p class="text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit amet urna hendrerit accumsan. Vestibulum nec velit non purus consequat faucibus nec sed neque. Ut dictum risus at velit imperdiet, vel dapibus nisl venenatis.
+        <div class="grid grid-cols-5 gap-4">
+          <!-- Equipo 1 -->
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
               </p>
+            </div>
           </div>
-      </div>
-      
+          <!-- Cambia el src de la imagen, el nombre del equipo y el texto según corresponda -->
+          <!-- Recuerda que puedes repetir este bloque tantas veces como sea necesario -->
+          <!-- Equipo 4 -->
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <!-- Equipo 5 -->
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <!-- Repite los equipos 18 al 19 aquí -->
+          <!-- Equipo 18 -->
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div
+            class="box border border-black rounded-md flex flex-col items-center justify-center bg-gray-200 p-7 overflow-hidden transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:border-black hover:border py-16"
+          >
+            <img
+              src="/res/equipos/equipo20.jpg"
+              class="h-24 w-24 object-cover rounded-md mb-4"
+            />
+            <div class="text-center max-h-40 overflow-y-hidden">
+              <p class="text-lg font-semibold mb-2">Equipo 20</p>
+              <p class="text-sm text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-row mb-10 items-center justify-center gap-11">
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="flex flex-row mb-10 items-center justify-center gap-11">
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-row mb-10 items-center justify-center gap-11">
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="flex flex-row mb-10 items-center justify-center gap-11">
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-        <div
-          class="box border-black w-1/6 rounded-md flex flex-col items-center justify-center bg-gray-200 relative p-7 transition-transform duration-300 transform hover:scale-110 cursor-pointer hover:border-black hover:border"
-        >
-          <img src="/res/equipos/barsa.jpg" class="h-full rounded-md w-1/3" />
-          <div class="text-center mt-4">
-            <p class="text-lg">Fútbol Club Barcelona</p>
-            <p class="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              odio ut nunc dignissim ultrices. Pellentesque sit amet nunc ut
-              lacus ultrices tincidunt sed id lectus. Curabitur eget ligula sit
-              amet urna hendrerit accumsan. Vestibulum nec velit non purus
-              consequat faucibus nec sed neque. Ut dictum risus at velit
-              imperdiet, vel dapibus nisl venenatis.
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
+      <section class="w-full bg-black py-5">
+        a
+      </section>
+    </main>
   </body>
 </html>
