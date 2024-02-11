@@ -23,3 +23,6 @@ animacion{
 .animationDelay{
     animation-delay: 0.3s!important;
 }
+.imagenDeFondoContacto{
+    background-image: url(/src/res/campo_cantacto.jpeg);
+}
