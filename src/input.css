@@ -25,4 +25,12 @@ animacion{
 }
 .imagenDeFondoContacto{
     background-image: url(/src/res/campo_cantacto.jpeg);
+    filter: blur(1rem);
+    height: 70vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

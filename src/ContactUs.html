@@ -11,54 +11,43 @@
   <body class="bg-slate-300">
     <main>
       <section class="flex flex-col">
-        <div
-          class="w-full shadow-lg bg-slate-100 shadow-slate-400 flex flex-row list-none justify-evenly py-9 px-4 gap-4 items-center content-center select-none"
-        >
-          <div class="">
-            <img
-              src="res\liga logo fondo blanco.png"
-              class="w-52 h-auto rounded-md"
-            />
+        <div class="w-full shadow-lg bg-slate-100 shadow-slate-400 flex flex-row list-none justify-evenly py-9 px-4 gap-4 items-center content-center select-none">
+          <div>
+            <img src="res\liga logo fondo blanco.png" class="w-52 h-auto rounded-md" />
           </div>
           <div class="flex flex-row gap-20 text-xl">
-            <div
-              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-            >
-              <a>Inicio</a>
+            <div class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all">
+              <a href="index.html">Inicio</a>
             </div>
-
-            <div
-              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-            >
-              <a>Consulta La tabla de clasificacion</a>
+            <div class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all">
+              <a href="tabla-clasificacion.html">Consulta La tabla de clasificación</a>
             </div>
-            <div
-              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-            >
-              <a>Contacta con nostros</a>
+            <div class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all">
+              <a href="ContactUs.html">Contacta con nosotros</a>
             </div>
-            <div
-              class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all"
-            >
-              <a>Login</a>
+            <div class="cursor-pointer hover:border-b-2 hover:translate-y-1 border-black transition-all">
+              <a href="login.html">Login</a>
             </div>
           </div>
-          <div
-            class="rounded-full bg-gray-600 py-2 px-4 text-gray-600 select-none"
-          >
+          <div class="rounded-full bg-gray-600 py-2 px-4 text-gray-600 select-none">
             a
           </div>
         </div>
-      </section> 
+      </section>
+      
       <section class=" flex flex-col items-center justify-center my-10 w-full">
 
         <div class=" flex flex-row items-center justify-evenly bg-white w-11/12 rounded-lg ">
 
-            <div class="imagenDeFondoContacto bg-black w-full">
-                <h1 class=" text-3xl">Contacte con nosotros</h1>
-            </div>
+          <div class="imagenDeFondoContacto relative w-full h-full" style="background-image: url('/src/res/campo_cantacto.jpeg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            
+        </div>
+        <h1 class="text-white text-3xl z-50 absolute -translate-x-[27rem] -translate-y-16">Contacte con nosotros</h1>
+                
 
-            <div class=" py-20 w-full px-8">
+            <div class="w-full px-12 gap-3 flex flex-col items-center justify-center py-24">
+              <h1 class="text-3xl -mt-20">Relle sus datos</h1>
                 <div><p>Email : </p></div>
                 
                 <diV><input class="outline-none p-2 bg-slate-200 rounded-full transition-all duration-300 w-96 focus:outline-none focus:shadow-md focus:shadow-purple-400" type="text"/></diV>
