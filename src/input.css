@@ -34,3 +34,30 @@ animacion{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajustar el tamaño de fuente para dispositivos móviles */
+    }
+    .w-52 {
+        width: 100%; /* Hacer que la imagen del logo sea responsiva en dispositivos móviles */
+        max-width: 200px; /* Limitar el ancho máximo de la imagen */
+    }
+    .mt-52 {
+        margin-top: 20px; /* Ajustar el margen superior del texto en dispositivos móviles */
+    }
+    .text-6xl {
+        font-size: 3rem; /* Ajustar el tamaño de fuente del título en dispositivos móviles */
+    }
+    .text-4xl {
+        font-size: 1.5rem; /* Ajustar el tamaño de fuente del subtítulo en dispositivos móviles */
+    }
+    .text-2xl {
+        font-size: 1.25rem; /* Ajustar el tamaño de fuente del título de la tabla en dispositivos móviles */
+    }
+    .grid-cols-5 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* Cambiar a 2 columnas en dispositivos móviles */
+    }
+}
+
